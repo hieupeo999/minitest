@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4 a</title>
+</head>
+<body>
+<p>Nhập độ dài cạnh hình vuông</p>
+<input type="text" id="canhHinhVuong">
+<button onclick="square()"> Tính chu vi và diện tích hình vuông</button>
+<p id = "PS"></p>
+<script>
+    function square() {
+        let a = +document.getElementById("canhHinhVuong").value
+        document.getElementById("PS").innerHTML = "Diện tính hình vuông cạnh a : " + (a ** 2) + "</br>" + "Chu vi hình vuông cạnh a là :" + (a * 4);
+    }
+</script>
+</body>
+</html>

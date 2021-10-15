@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<p>Nhập số a : </p>
+<input id = "a" type = "text">.
+<p>Nhập số b : </p>
+<input id = "b" type = "text">
+<button onclick="multiplication()">Tính S = tích 2 số a và b</button>
+<h1 id = "rs"></h1>
+<script>
+    // Câu lệnh nào nhận vào giá trị từ 1 ô input document.getElementById("").value;
+    function multiplication() {
+        let a = +document.getElementById("a").value
+        let b = +document.getElementById("b").value
+        document.getElementById("rs").innerHTML = a * b;
+    }
+</script>
+
+</body>
+</html>
+

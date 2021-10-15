@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4b</title>
+</head>
+<body>
+<input type="text" id="a">
+<input type="text" id="b">
+<button onclick="binhPhuong()">Tính a^2 và a^b</button>
+<p id="Tinh"></p>
+<script>
+    function binhPhuong() {
+        let a = document.getElementById("a").value;
+        let b = document.getElementById("b").value;
+        document.getElementById('Tinh').innerHTML ="Kết quả :" + "</br>" + "a^2=" + (a*a) + '<br>' +"b^2=" + (b*b);
+    }
+</script>
+</body>
+</html>
+
